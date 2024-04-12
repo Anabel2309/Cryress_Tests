@@ -44,15 +44,9 @@ describe('Pruebas todos', () => {
         cy.get(':nth-child(2) > a').click()
         cy.get(':nth-child(1) > .view > [data-testid="todo-item-toggle"]').uncheck()
         cy.get(':nth-child(2) > .view > [data-testid="todo-item-toggle"]').uncheck()
-        cy.get(':nth-child(1) > a').click()
-        
-
-
-        
+        cy.get(':nth-child(1) > a').click()    
     }) 
-
-
-   
+    
     })
 
 
